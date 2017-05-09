@@ -11,6 +11,15 @@ This implementation is based on python
 [TensorFlow](https://www.tensorflow.org/tutorials/seq2seq/),
 which allows an efficient training on both CPU and GPU.
 
+---
+
+__UPDATE:__
+
+- __This fork works only ON GPU, and with tensorflow>=1.0.0 and <1.1.*__
+- An error was fixed in `seq2seq_model.py`, where `sample_loss(labels, inputs) ` beacame `sampled_loss(inputs, labels)` or vice-versa...
+
+---
+
 ## Installation
 
 The tool requires TensorFlow at least version 1.0.0. Please see the installation
