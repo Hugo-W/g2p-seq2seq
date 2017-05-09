@@ -1,7 +1,5 @@
 *.log
 *.pyc
 *.egg-info
-*.py~
-.egg
 build
 dist
